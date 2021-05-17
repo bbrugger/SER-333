@@ -1,0 +1,20 @@
+land_cover, AERONET_site, major_lc_percentage, AOD550_mean, AOD550_std
+Forest, Balbina, 58.95, 0.179, 0.110
+Forest, Manaus Embrapa, 76.68, 0.192, 0.151
+Shrubland/Barren, Casleo, 100, 0.024, 0.018
+Shrubland/Barren, Trelew, 86.78, 0.035, 0.028
+Savanna/Grassland, Ceilap RG, 66.34, 0.022, 0.013
+Savanna/Grassland, Cordoba CETT, 56.03, 0.080, 0.065
+Savanna/Grassland, Santa Cruz, 50.84, 0.183, 0.173
+Cropland, Abraços Hill, 62.84, 0.338, 0.369
+Cropland, Alta Floresta, 64.68, 0.253, 0.392
+Cropland, Cuiabá Miranda, 71.36, 0.233, 0.334
+Cropland, Ji Paraná SE, 71.68, 0.338, 0.494
+Cropland, Rio Branco, 62.89, 0.248, 0.304
+Urban, Ceilap BA, 76.78, 0.089, 0.075
+Urban, São Paulo, 90.77, 0.214, 0.150
+Mixed, Arica,, 0.219, 0.107
+Mixed, Belterra,, 0.209, 0.171
+Mixed, Campo Grande,, 0.127, 0.198
+Mixed, La Paz,, 0.084, 0.045
+Mixed, São Martinho,, 0.071, 0.078
