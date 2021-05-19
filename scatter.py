@@ -22,13 +22,13 @@ def fournier_forand(mi, n, theta_array):
     )
 
 
-ticks = np.arange(0.1, 2*np.pi, 0.1)
-plt.polar(ticks, rayleigh(ticks), label="Rayleigh")
+ticks = np.arange(0.1, np.pi, 0.1)
+plt.plot(ticks, rayleigh(ticks), label="Rayleigh")
 plt.plot(ticks, henyey_greenstein(0.7, ticks), label="Henyey-Greenstein g=0.7")
 plt.plot(ticks, fournier_forand(4.065, 1.175, ticks), label="Fournier-Forand B=0.1")
 
-# plt.ylabel("Função de fase de espalhamento")
-# plt.xlabel("Ângulo (rad)")
+plt.ylabel("Função de fase de espalhamento")
+plt.xlabel("Ângulo (rad)")
 
 plt.yscale("symlog")
 plt.legend(bbox_to_anchor=(1, 1), loc="upper left")
